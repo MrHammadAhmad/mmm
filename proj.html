@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="proj3/proj3.css">
+	<style> 
+@font-face {
+  font-family: myFirstFont;
+  src: url(Font/AmaticSC-Regular.ttf);
+}
+
+div {
+  font-family: myFirstFont;
+}
+</style>
+	<title>PIZZA</title>
+</head>
+<body>
+	<div class="nav" id="mynavbar">
+		<a href="#">HOME</a>
+		<a href="#menu" class="button">MENU</a>
+		<a href="#about" class="button">ABOUT</a>
+		<a href="#contant">CONTANT</a>
+	</div>
+
+	<header class="img" id="home">
+		 <div class="cont1">
+		 	<span class="cont2">Open from 10am to 12pm</span	>
+		 </div>
+		 <div class="cont3">THIN <br>CRUST PIZZA</div>
+		 <br>
+		 <p class="cont4"><a href="#menu" class="button">Let me see the menu</a></p>
+	</header>
+
+	<div class="menu-cont" id="menu">
+		<h1>THE MENU</h1>
+		<div class="tabs">
+			<div class="tab" onclick="showmenu('Pizza')">Pizza</div>
+			<div class="tab" onclick="showmenu('pasta')">Pasta</div>
+			<div class="tab" onclick="showmenu('Burgers')">Burgers</div>
+		</div>
+		<div id="pizza" class="menu2">
+			 <h1>Margherita <span>$12.50</span></h1>
+            <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            <hr>
+            <h1>Formaggio <span>$15.50</span></h1>
+            <p>Four cheeses (mo	zzarella, parmesan, pecorino, jarlsberg)</p>
+            <hr>
+            <h1>Chicken <span>$17.00</span></h1>
+            <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+            <hr>
+         
+        </div>
+
+        <div id="Pasta" class="menu2">
+            <h1>Lasagna <span>$13.50</span></h1>
+            <p>Special sauce, mozzarella, parmesan, ground beef</p>
+            <hr>
+            
+        </div>
+
+        <div id="Starter" class="menu2">
+            <h1>Today's Soup <span>$5.50</span></h1>
+            <p>Ask the waiter</p>
+        </div>
+
+	</div>
+
+<div class="tab2" id="about">
+	<div class="tab2-cont">
+	<h1>About</h1>
+	<p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<p><strong>The Chef?</strong> Mr. Italiano himself<img src="image/pic1.jpg" style=" width: 150px; margin-left: 800px;  border-radius: 50px;"></p>
+	<p style="margin-right: 950px;">We are proud of our interiors.</p>
+	<img src="image/pic6.jpg" style=" width: 90%; height: 550px;">
+
+	<h1><b>Opening Hours</b></h1>
+	<div style=" margin-right:950px ;  white-space: pre; line-height: 50%;">
+        <p>                                 Mon & Tue CLOSED                                                                                                                       Friday 10:00 - 12:00</p>
+        <p>                                 Wednesday 10.00 - 24.00                                                                                                              Saturday 10:00 - 23:00</p>
+        <p>                                 Thursday 10:00 - 24:00                                                                                                                   Sunday Closed</p>
+      </div>
+	</div>
+</div>
+
+<img src="image/pic7.jpg" style="width: 100%;">
+
+<div class="contant"  id="contant">
+	<h1>CONTANT</h1>
+	<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+
+	<p><strong>Reserve a table, ask for today's special or just send us a message: </strong> </p>
+
+	<form action="/action_page.php" target="_blank" class="form">
+		<p><input type="name" required name="name" placeholder="NAME"></p>
+		<p><input type="number" required name="People" placeholder="How many people"></p>
+		<p><input type="datetime-local" required name="Date and time" placeholder="Date"></p>
+		<p><input type="text" required name="Message" placeholder="Message"></p>
+
+		<p><button type="submit" style=" padding: 25px; width: 85%; color: white; background-color: black; cursor:pointer;  ">SEND Message</button></p>
+		
+	</form>
+</div>
+
+<footer style="background-color: black; color: white; padding: 50px; text-align: center;" >
+	<h1>PIZZZZZZZZA</h1>
+</footer>
+
+</body>
+</html>

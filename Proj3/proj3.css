@@ -1,0 +1,130 @@
+body {
+  font-family: "Amatic SC", sans-serif;
+	font-size:30px;
+	font-weight:;
+	margin: 0;
+	color: ;
+}
+
+.nav{
+	background-color:black ;
+	width: 100%;
+	text-align: center;
+	z-index: 1000;
+	display: flex;
+	opacity: 0.8;
+	position: fixed;
+	opacity: off;
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px;
+	margin: 5px 15px;
+}
+
+.nav a:hover{
+	background-color: grey;
+	border-radius: 4px;
+}
+
+.img{
+	background-image: url("../image/pic3.jpg");
+	background-size: cover;
+	background-repeat:no-repeat ;
+	background-position: center;
+	height: 520px;
+  color: white;
+  width: 100%;
+} 
+
+.cont1{
+	position:relative;
+	padding: 20px;
+}
+
+.cont2{
+	position: absolute;
+	top: 430px;
+	left:50px;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+.cont3{
+	text-align: center;
+	font-weight: bold;
+	font-size:80px;
+	
+}
+
+.button{
+	background-color: black;
+	color: white;
+	padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+p{
+	text-align: center;
+}
+
+a:hover{
+	background-color: grey;
+}
+
+.menu-cont{
+	background-color: black;
+	color: rgb(241, 236, 236);
+	text-align: center;
+	padding: 64px 0;
+}
+
+.tabs{
+	width: 70%;
+    margin-left:195px ;
+	display: flex;
+	justify-content: center;
+	border: 1px solid white;
+}
+
+.tab{
+	background-color: red;
+	flex: 1;
+	padding: 18px;
+}
+
+.menu2{
+	width: 70%;
+	margin-left:180px ;
+	padding: 20px;
+	background-color: white;
+	color: black;
+
+}
+
+.tab2{
+	margin-top: ;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding: 64px 0;
+}
+
+.contant{
+	background-color: #708090;
+	color: white;
+	text-align: center;
+	padding: 64px 0;
+}
+
+.form input{
+	padding: 25px;
+	width: 85%;
+}
